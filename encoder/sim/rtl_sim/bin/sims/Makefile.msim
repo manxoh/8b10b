@@ -43,7 +43,8 @@ all: sim
 #####################################################################
 # Make Targets
 #####################################################################
-SIM_OPTS=-c +notimingchecks
+#SIM_OPTS=-c +notimingchecks
+SIM_OPTS=-voptargs="+acc" +notimingchecks
 
 .PHONY: sim simw clean
 
